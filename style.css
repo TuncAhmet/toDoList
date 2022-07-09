@@ -1,0 +1,60 @@
+body {
+    background-color: #444444!important;
+}
+
+.to-do-list {
+    list-style: none;
+    margin: 2.5rem;
+    padding: 2.5rem;
+    /* background-color: #3C87FF; */
+}
+
+.dropdown-toggle::after {
+    display: none!important;
+}
+
+label {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+.form-check {
+    display: inline-block!important;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.list-group-item {
+    display: flex!important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task label.checked {
+    text-decoration: line-through;
+    background-color: aquamarine;
+}
+
+.controls {
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+}
+
+.filters span.active {
+    color: #3C87FF;
+}
+
+.filters span {
+    margin-right: 5px;
+    font-size: 15px;
+    column-rule-color: #444444;
+    cursor: pointer;
+}
+
+.btn-block {
+    display: block!important;
+}
